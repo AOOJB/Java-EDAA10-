@@ -1,0 +1,21 @@
+package ovn2;
+
+import java.util.Scanner;
+public class Calculator 
+	{
+	public static void main(String[] args) 
+		{
+		double nbr1, nbr2, sum;System.out.println("Skriv två tal");
+		Scanner scan = new Scanner(System.in);
+		nbr1 = scan.nextDouble();
+		nbr2 = scan.nextDouble();
+		double sumaddition = nbr1+nbr2;
+		double sumsubtraktion = nbr1-nbr2;
+		double summultiplikation = nbr1*nbr2;
+		double sumdivision = nbr1/nbr2;
+		System.out.println("Summan av talen är " + sumaddition);
+		System.out.println("Skillnaden av talen är " + sumsubtraktion);
+		System.out.println("Produkten av talen är " + summultiplikation);
+		System.out.println("Kvoten av talen är " + sumdivision);
+		}
+	}
